@@ -1,0 +1,398 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Wed Sep 29 13:08:23 IST 2021<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="http-nio-8081-exec-6 thread">http-nio-8081-exec-6</td>
+<td title="Level">INFO</td>
+<td title="com.cg.controller.GreatOutdoorsController category">com.cg.controller.GreatOutdoorsController</td>
+<td title="Message">Adding product: Product [prodId=2, prodName=Cricket Ball, quantity=150, price=15000.0, prodCategory=Outdoors Equipment]</td>
+</tr>
+
+<tr>
+<td>241</td>
+<td title="http-nio-8081-exec-6 thread">http-nio-8081-exec-6</td>
+<td title="Level">INFO</td>
+<td title="com.cg.controller.GreatOutdoorsController category">com.cg.controller.GreatOutdoorsController</td>
+<td title="Message">Product added: Product [prodId=2, prodName=Cricket Ball, quantity=150, price=15000.0, prodCategory=Outdoors Equipment]</td>
+</tr>
+
+<tr>
+<td>65932</td>
+<td title="http-nio-8081-exec-8 thread">http-nio-8081-exec-8</td>
+<td title="Level">INFO</td>
+<td title="com.cg.controller.GreatOutdoorsController category">com.cg.controller.GreatOutdoorsController</td>
+<td title="Message">Adding product: Product [prodId=2, prodName=Cricket Ball, quantity=150, price=15000.0, prodCategory=Indoors Equipment]</td>
+</tr>
+
+<tr>
+<td>65938</td>
+<td title="http-nio-8081-exec-8 thread">http-nio-8081-exec-8</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.cg.service.ProductServiceImpl category">com.cg.service.ProductServiceImpl</td>
+<td title="Message">product already exists for id=2</td>
+</tr>
+
+<tr>
+<td>161643</td>
+<td title="http-nio-8081-exec-10 thread">http-nio-8081-exec-10</td>
+<td title="Level">INFO</td>
+<td title="com.cg.controller.GreatOutdoorsController category">com.cg.controller.GreatOutdoorsController</td>
+<td title="Message">Adding retailer: Retailer [retailerId=1008, retailerName=Anand's Store, retailerAddress=Address [phoneNo=8976534216, pinCode=456123, city=Pune, street=MG Road, state=Maharshtra]]</td>
+</tr>
+
+<tr>
+<td>161676</td>
+<td title="http-nio-8081-exec-10 thread">http-nio-8081-exec-10</td>
+<td title="Level">INFO</td>
+<td title="com.cg.controller.GreatOutdoorsController category">com.cg.controller.GreatOutdoorsController</td>
+<td title="Message">Retailer added: Retailer [retailerId=1008, retailerName=Anand's Store, retailerAddress=Address [phoneNo=8976534216, pinCode=456123, city=Pune, street=MG Road, state=Maharshtra]]</td>
+</tr>
+
+<tr>
+<td>215840</td>
+<td title="http-nio-8081-exec-1 thread">http-nio-8081-exec-1</td>
+<td title="Level">INFO</td>
+<td title="com.cg.controller.GreatOutdoorsController category">com.cg.controller.GreatOutdoorsController</td>
+<td title="Message">Adding retailer: Retailer [retailerId=1008, retailerName=Mayur's Store, retailerAddress=Address [phoneNo=8976534216, pinCode=456123, city=Pune, street=MG Road, state=Maharshtra]]</td>
+</tr>
+
+<tr>
+<td>215851</td>
+<td title="http-nio-8081-exec-1 thread">http-nio-8081-exec-1</td>
+<td title="Level">INFO</td>
+<td title="com.cg.controller.GreatOutdoorsController category">com.cg.controller.GreatOutdoorsController</td>
+<td title="Message">Retailer added: Retailer [retailerId=1008, retailerName=Mayur's Store, retailerAddress=Address [phoneNo=8976534216, pinCode=456123, city=Pune, street=MG Road, state=Maharshtra]]</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Wed Sep 29 14:23:07 IST 2021<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="http-nio-8081-exec-6 thread">http-nio-8081-exec-6</td>
+<td title="Level">INFO</td>
+<td title="com.cg.controller.GreatOutdoorsController category">com.cg.controller.GreatOutdoorsController</td>
+<td title="Message">Adding retailer: Retailer [retailerId=1008, retailerName=Anand's Store, retailerAddress=Address [phoneNo=1234567345, pinCode=432165, city=str, street=s, state=st]]</td>
+</tr>
+
+<tr>
+<td>167</td>
+<td title="http-nio-8081-exec-6 thread">http-nio-8081-exec-6</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.cg.service.RetailServiceImpl category">com.cg.service.RetailServiceImpl</td>
+<td title="Message">Retailer already exists with id: 1008</td>
+</tr>
+
+<tr>
+<td>84849</td>
+<td title="http-nio-8081-exec-8 thread">http-nio-8081-exec-8</td>
+<td title="Level">INFO</td>
+<td title="com.cg.controller.GreatOutdoorsController category">com.cg.controller.GreatOutdoorsController</td>
+<td title="Message">Deleting product with id: 2</td>
+</tr>
+
+<tr>
+<td>84900</td>
+<td title="http-nio-8081-exec-8 thread">http-nio-8081-exec-8</td>
+<td title="Level">INFO</td>
+<td title="com.cg.controller.GreatOutdoorsController category">com.cg.controller.GreatOutdoorsController</td>
+<td title="Message">Product deleted with id: 2</td>
+</tr>
+
+<tr>
+<td>95802</td>
+<td title="http-nio-8081-exec-9 thread">http-nio-8081-exec-9</td>
+<td title="Level">INFO</td>
+<td title="com.cg.controller.GreatOutdoorsController category">com.cg.controller.GreatOutdoorsController</td>
+<td title="Message">Deleting product with id: 2</td>
+</tr>
+
+<tr>
+<td>95803</td>
+<td title="http-nio-8081-exec-9 thread">http-nio-8081-exec-9</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.cg.service.ProductServiceImpl category">com.cg.service.ProductServiceImpl</td>
+<td title="Message">Product is not present for id 2</td>
+</tr>
+
+<tr>
+<td>105603</td>
+<td title="http-nio-8081-exec-10 thread">http-nio-8081-exec-10</td>
+<td title="Level">INFO</td>
+<td title="com.cg.controller.GreatOutdoorsController category">com.cg.controller.GreatOutdoorsController</td>
+<td title="Message">Deleting product with id: 3</td>
+</tr>
+
+<tr>
+<td>105613</td>
+<td title="http-nio-8081-exec-10 thread">http-nio-8081-exec-10</td>
+<td title="Level">INFO</td>
+<td title="com.cg.controller.GreatOutdoorsController category">com.cg.controller.GreatOutdoorsController</td>
+<td title="Message">Product deleted with id: 3</td>
+</tr>
+
+<tr>
+<td>127127</td>
+<td title="http-nio-8081-exec-2 thread">http-nio-8081-exec-2</td>
+<td title="Level">INFO</td>
+<td title="com.cg.controller.GreatOutdoorsController category">com.cg.controller.GreatOutdoorsController</td>
+<td title="Message">Deleting retailer with id: 1037</td>
+</tr>
+
+<tr>
+<td>127143</td>
+<td title="http-nio-8081-exec-2 thread">http-nio-8081-exec-2</td>
+<td title="Level">INFO</td>
+<td title="com.cg.controller.GreatOutdoorsController category">com.cg.controller.GreatOutdoorsController</td>
+<td title="Message">Retailer deleted for id: 1037</td>
+</tr>
+
+<tr>
+<td>131580</td>
+<td title="http-nio-8081-exec-3 thread">http-nio-8081-exec-3</td>
+<td title="Level">INFO</td>
+<td title="com.cg.controller.GreatOutdoorsController category">com.cg.controller.GreatOutdoorsController</td>
+<td title="Message">Deleting retailer with id: 1037</td>
+</tr>
+
+<tr>
+<td>131905</td>
+<td title="http-nio-8081-exec-3 thread">http-nio-8081-exec-3</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.cg.service.RetailServiceImpl category">com.cg.service.RetailServiceImpl</td>
+<td title="Message">Retailer not found for retailer id 1037</td>
+</tr>
+
+<tr>
+<td>137290</td>
+<td title="http-nio-8081-exec-4 thread">http-nio-8081-exec-4</td>
+<td title="Level">INFO</td>
+<td title="com.cg.controller.GreatOutdoorsController category">com.cg.controller.GreatOutdoorsController</td>
+<td title="Message">Deleting retailer with id: 1038</td>
+</tr>
+
+<tr>
+<td>137301</td>
+<td title="http-nio-8081-exec-4 thread">http-nio-8081-exec-4</td>
+<td title="Level">INFO</td>
+<td title="com.cg.controller.GreatOutdoorsController category">com.cg.controller.GreatOutdoorsController</td>
+<td title="Message">Retailer deleted for id: 1038</td>
+</tr>
+
+<tr>
+<td>149455</td>
+<td title="http-nio-8081-exec-5 thread">http-nio-8081-exec-5</td>
+<td title="Level">INFO</td>
+<td title="com.cg.controller.GreatOutdoorsController category">com.cg.controller.GreatOutdoorsController</td>
+<td title="Message">Finding the product with id: 1</td>
+</tr>
+
+<tr>
+<td>149458</td>
+<td title="http-nio-8081-exec-5 thread">http-nio-8081-exec-5</td>
+<td title="Level">INFO</td>
+<td title="com.cg.controller.GreatOutdoorsController category">com.cg.controller.GreatOutdoorsController</td>
+<td title="Message">Product found for id: 1</td>
+</tr>
+
+<tr>
+<td>156788</td>
+<td title="http-nio-8081-exec-6 thread">http-nio-8081-exec-6</td>
+<td title="Level">INFO</td>
+<td title="com.cg.controller.GreatOutdoorsController category">com.cg.controller.GreatOutdoorsController</td>
+<td title="Message">Finding the product with id: 10</td>
+</tr>
+
+<tr>
+<td>156790</td>
+<td title="http-nio-8081-exec-6 thread">http-nio-8081-exec-6</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.cg.service.ProductServiceImpl category">com.cg.service.ProductServiceImpl</td>
+<td title="Message">Product is not present for id 10</td>
+</tr>
+
+<tr>
+<td>169106</td>
+<td title="http-nio-8081-exec-7 thread">http-nio-8081-exec-7</td>
+<td title="Level">INFO</td>
+<td title="com.cg.controller.GreatOutdoorsController category">com.cg.controller.GreatOutdoorsController</td>
+<td title="Message">Fiding retailer address with id: 1008</td>
+</tr>
+
+<tr>
+<td>169111</td>
+<td title="http-nio-8081-exec-7 thread">http-nio-8081-exec-7</td>
+<td title="Level">INFO</td>
+<td title="com.cg.controller.GreatOutdoorsController category">com.cg.controller.GreatOutdoorsController</td>
+<td title="Message">Found retailer address with id: 1008</td>
+</tr>
+
+<tr>
+<td>175293</td>
+<td title="http-nio-8081-exec-8 thread">http-nio-8081-exec-8</td>
+<td title="Level">INFO</td>
+<td title="com.cg.controller.GreatOutdoorsController category">com.cg.controller.GreatOutdoorsController</td>
+<td title="Message">Fiding retailer address with id: 100</td>
+</tr>
+
+<tr>
+<td>175294</td>
+<td title="http-nio-8081-exec-8 thread">http-nio-8081-exec-8</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.cg.service.RetailServiceImpl category">com.cg.service.RetailServiceImpl</td>
+<td title="Message">Retailer not found for retailer id 100</td>
+</tr>
+
+<tr>
+<td>191686</td>
+<td title="http-nio-8081-exec-9 thread">http-nio-8081-exec-9</td>
+<td title="Level">INFO</td>
+<td title="com.cg.controller.GreatOutdoorsController category">com.cg.controller.GreatOutdoorsController</td>
+<td title="Message">Fiding retailer with id: 1006</td>
+</tr>
+
+<tr>
+<td>191689</td>
+<td title="http-nio-8081-exec-9 thread">http-nio-8081-exec-9</td>
+<td title="Level">INFO</td>
+<td title="com.cg.controller.GreatOutdoorsController category">com.cg.controller.GreatOutdoorsController</td>
+<td title="Message">Found retailer with id: 1006</td>
+</tr>
+
+<tr>
+<td>196712</td>
+<td title="http-nio-8081-exec-10 thread">http-nio-8081-exec-10</td>
+<td title="Level">INFO</td>
+<td title="com.cg.controller.GreatOutdoorsController category">com.cg.controller.GreatOutdoorsController</td>
+<td title="Message">Fiding retailer with id: 100</td>
+</tr>
+
+<tr>
+<td>196713</td>
+<td title="http-nio-8081-exec-10 thread">http-nio-8081-exec-10</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.cg.service.RetailServiceImpl category">com.cg.service.RetailServiceImpl</td>
+<td title="Message">Retailer not found for retailer id 100</td>
+</tr>
+
+<tr>
+<td>242302</td>
+<td title="http-nio-8081-exec-2 thread">http-nio-8081-exec-2</td>
+<td title="Level">INFO</td>
+<td title="com.cg.controller.GreatOutdoorsController category">com.cg.controller.GreatOutdoorsController</td>
+<td title="Message">Updating address: Address [phoneNo=9145245517, pinCode=123456, city=string, street=st, state=str]</td>
+</tr>
+
+<tr>
+<td>242328</td>
+<td title="http-nio-8081-exec-2 thread">http-nio-8081-exec-2</td>
+<td title="Level">INFO</td>
+<td title="com.cg.controller.GreatOutdoorsController category">com.cg.controller.GreatOutdoorsController</td>
+<td title="Message">Address updated: Address [phoneNo=9145245517, pinCode=123456, city=string, street=st, state=str]</td>
+</tr>
+
+<tr>
+<td>250889</td>
+<td title="http-nio-8081-exec-3 thread">http-nio-8081-exec-3</td>
+<td title="Level">INFO</td>
+<td title="com.cg.controller.GreatOutdoorsController category">com.cg.controller.GreatOutdoorsController</td>
+<td title="Message">Updating address: Address [phoneNo=9145245518, pinCode=123456, city=string, street=st, state=str]</td>
+</tr>
+
+<tr>
+<td>250891</td>
+<td title="http-nio-8081-exec-3 thread">http-nio-8081-exec-3</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.cg.service.RetailServiceImpl category">com.cg.service.RetailServiceImpl</td>
+<td title="Message">Address not found for phone number 9145245518</td>
+</tr>
+
+<tr>
+<td>297483</td>
+<td title="http-nio-8081-exec-4 thread">http-nio-8081-exec-4</td>
+<td title="Level">INFO</td>
+<td title="com.cg.controller.GreatOutdoorsController category">com.cg.controller.GreatOutdoorsController</td>
+<td title="Message">Updating product: Product [prodId=1, prodName=Helmet, quantity=10, price=5000.0, prodCategory=Outdoor]</td>
+</tr>
+
+<tr>
+<td>297501</td>
+<td title="http-nio-8081-exec-4 thread">http-nio-8081-exec-4</td>
+<td title="Level">INFO</td>
+<td title="com.cg.controller.GreatOutdoorsController category">com.cg.controller.GreatOutdoorsController</td>
+<td title="Message">Product updated: Product [prodId=1, prodName=Helmet, quantity=10, price=5000.0, prodCategory=Outdoor]</td>
+</tr>
+
+<tr>
+<td>304836</td>
+<td title="http-nio-8081-exec-5 thread">http-nio-8081-exec-5</td>
+<td title="Level">INFO</td>
+<td title="com.cg.controller.GreatOutdoorsController category">com.cg.controller.GreatOutdoorsController</td>
+<td title="Message">Updating product: Product [prodId=2, prodName=Helmet, quantity=10, price=5000.0, prodCategory=Outdoor]</td>
+</tr>
+
+<tr>
+<td>304838</td>
+<td title="http-nio-8081-exec-5 thread">http-nio-8081-exec-5</td>
+<td title="Level"><font color="#993300"><strong>ERROR</strong></font></td>
+<td title="com.cg.service.ProductServiceImpl category">com.cg.service.ProductServiceImpl</td>
+<td title="Message">product doesn't exists for id=2</td>
+</tr>
+
+<tr>
+<td>365632</td>
+<td title="http-nio-8081-exec-7 thread">http-nio-8081-exec-7</td>
+<td title="Level">INFO</td>
+<td title="com.cg.controller.GreatOutdoorsController category">com.cg.controller.GreatOutdoorsController</td>
+<td title="Message">Updating retailer: Retailer [retailerId=1006, retailerName=OK, retailerAddress=Address [phoneNo=1234567891, pinCode=0, city=stri, street=st, state=str]]</td>
+</tr>
+
+<tr>
+<td>365649</td>
+<td title="http-nio-8081-exec-7 thread">http-nio-8081-exec-7</td>
+<td title="Level">INFO</td>
+<td title="com.cg.controller.GreatOutdoorsController category">com.cg.controller.GreatOutdoorsController</td>
+<td title="Message">Retailer updated: Retailer [retailerId=1006, retailerName=OK, retailerAddress=Address [phoneNo=1234567891, pinCode=0, city=stri, street=st, state=str]]</td>
+</tr>
