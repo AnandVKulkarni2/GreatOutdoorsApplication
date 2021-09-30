@@ -9,11 +9,11 @@ public interface RetailService {
 
 	Address updateAddress(Address addr);
 
-	Retailer findRetailer(Integer retailerId);
+	Retailer findRetailer(String retailerId);
 
 	Retailer addRetailer(Retailer ret);
 
-	Retailer deleteRetailer(int retailerId);
+	Retailer deleteRetailer(String retailerId);
 
 	Retailer updateRetailer(Retailer ret);
 

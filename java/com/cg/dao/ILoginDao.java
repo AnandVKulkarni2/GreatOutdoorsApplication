@@ -6,6 +6,6 @@ import org.springframework.stereotype.Repository;
 import com.cg.entities.Retailer;
 
 @Repository
-public interface RetailerDao extends JpaRepository<Retailer, String> {
+public interface ILoginDao extends JpaRepository<Retailer, String> {
 
 }

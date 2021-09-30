@@ -15,9 +15,19 @@ import org.springframework.beans.factory.annotation.Autowired;
 public class Retailer {
 	
 	@Id
-	private int retailerId;
+	private String retailerId;
 	private String retailerName;
+	private String password;
+	private String role;
 	
+	public String getRole() {
+		return role;
+	}
+
+	public void setRole(String role) {
+		this.role = role;
+	}
+
 	@Autowired
 	@OneToOne(cascade = CascadeType.ALL)
 	@JoinColumn(name="address_id")
@@ -26,25 +36,44 @@ public class Retailer {
 	public Retailer() {
 	}
 
-	public Retailer(int retailerId, String retailerName, Address retailerAddress) {
+
+
+	public Retailer(String retailerId, String retailerName, String password, String role, Address retailerAddress) {
 		super();
 		this.retailerId = retailerId;
 		this.retailerName = retailerName;
+		this.password = password;
+		this.role = role;
 		this.retailerAddress = retailerAddress;
+	}
+
+
+
+	public Retailer(String string, String string2) {
+		this.retailerId=string;
+		this.role=string2;
 	}
 
 	@Override
 	public String toString() {
-		return "Retailer [retailerId=" + retailerId + ", retailerName=" + retailerName + ", retailerAddress="
-				+ retailerAddress + "]";
+		return "Retailer [retailerId=" + retailerId + ", retailerName=" + retailerName + ", password=" + password
+				+ ", role=" + role + ", retailerAddress=" + retailerAddress + "]";
 	}
 
-	public int getRetailerId() {
+	public String getRetailerId() {
 		return retailerId;
 	}
 
-	public void setRetailerId(int retailerId) {
+	public void setRetailerId(String retailerId) {
 		this.retailerId = retailerId;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
 	}
 
 	public String getRetailerName() {

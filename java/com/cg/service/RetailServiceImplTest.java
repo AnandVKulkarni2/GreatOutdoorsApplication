@@ -66,32 +66,32 @@ public class RetailServiceImplTest {
 
 	@Test
 	void testFindRetailer() {
-		Retailer ret= new Retailer(1009, "Piyush's Store", new Address(12567, "xyz", "mno", "pqr", 1111111111));
+		Retailer ret= new Retailer("1009", "Piyush's Store","","", new Address(12567, "xyz", "mno", "pqr", 1111111111));
 		Retailer saveRet= rService.addRetailer(ret);
-		Retailer ret2= rService.findRetailer(1009);
+		Retailer ret2= rService.findRetailer("1009");
 		assertEquals(ret2.getRetailerName(), ret.getRetailerName());
 	}
 
 	@Test
 	void testAddRetailer() {
-		Retailer ret= new Retailer(1009, "Piyush's Store", new Address(12567, "xyz", "mno", "pqr", 1111111111));
+		Retailer ret= new Retailer("1009", "Piyush's Store","","", new Address(12567, "xyz", "mno", "pqr", 1111111111));
 		Retailer saveRet= rService.addRetailer(ret);
 		Assertions.assertEquals(saveRet.getRetailerName(), ret.getRetailerName());
 	}
 
 	@Test
 	void testDeleteRetailer() {
-		Retailer ret= new Retailer(1009, "Piyush's Store", new Address(12567, "xyz", "mno", "pqr", 1111111111));
+		Retailer ret= new Retailer("1009", "Piyush's Store","","", new Address(12567, "xyz", "mno", "pqr", 1111111111));
 		Retailer saveRet= rService.addRetailer(ret);
-		Retailer ret1= rService.deleteRetailer(1009);
-		Exception ex= assertThrows(RetailerNotFoundException.class, ()->{rService.findRetailer(1009);});
+		Retailer ret1= rService.deleteRetailer("1009");
+		Exception ex= assertThrows(RetailerNotFoundException.class, ()->{rService.findRetailer("1009");});
 	}
 
 	@Test
 	void testUpdateRetailer() {
-		Retailer ret= new Retailer(1009, "Piyush's Store", new Address(12567, "xyz", "mno", "pqr", 1111111111));
+		Retailer ret= new Retailer("1009", "Piyush's Store","","", new Address(12567, "xyz", "mno", "pqr", 1111111111));
 		Retailer saveRet= rService.addRetailer(ret);
-		Retailer ret1= new Retailer(1009, "Mayur's Store", new Address(12345, "abc", "xyz", "mno", 1111111119));
+		Retailer ret1= new Retailer("1009", "Piyush's Store","","",new Address(12345, "abc", "xyz", "mno", 1111111119));
 		Retailer ret2= rService.updateRetailer(ret1);
 		assertEquals(ret2.getRetailerName(), ret1.getRetailerName());
 	}

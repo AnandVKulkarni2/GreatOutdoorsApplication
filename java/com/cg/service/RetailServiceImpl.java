@@ -46,7 +46,7 @@ public class RetailServiceImpl implements RetailService {
 
 
 	@Override
-	public Retailer findRetailer(Integer retailerId) {
+	public Retailer findRetailer(String retailerId) {
 		boolean exists=rDao.existsById(retailerId);
 		if(!exists) {
 			logger.error("Retailer not found for retailer id "+retailerId);
@@ -64,12 +64,13 @@ public class RetailServiceImpl implements RetailService {
 			logger.error("Retailer already exists with id: "+ret.getRetailerId());
 			throw new RetailerAlreadyExistsException("Retailer already exists with id: "+ret.getRetailerId());
 		}
+		ret.setRole("User");
 		ret= rDao.save(ret);
 		return ret;
 	}
 
 	@Override
-	public Retailer deleteRetailer(int retailerId) {
+	public Retailer deleteRetailer(String retailerId) {
 		Retailer ret= findRetailer(retailerId);
 		rDao.deleteById(retailerId);
 		return ret;
