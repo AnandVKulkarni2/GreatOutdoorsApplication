@@ -26,14 +26,6 @@ public class Product {
 		this.prodCategory = prodCategory;
 	}
 	
-	//Copy constructor
-//	public Product(Product prod) {
-//		this.prodId = prod.getProdId();
-//		this.prodName = prod.getProdName();
-//		this.quantity = prod.getQuantity();
-//		this.price = prod.getPrice();
-//		this.prodCategory=prod.getProdCategory();
-//	}
 	@Override
 	public String toString() {
 		return "Product [prodId=" + prodId + ", prodName=" + prodName + ", quantity=" + quantity + ", price=" + price

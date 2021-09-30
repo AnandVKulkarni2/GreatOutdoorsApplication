@@ -37,7 +37,6 @@ public class RetailServiceImpl implements RetailService {
 	@Override
 	public Address updateAddress(Address addr) {
 		boolean exists= aDao.existsById(addr.getPhoneNo());
-		System.out.println("Exists: "+exists);
 		if(!exists) {
 			logger.error("Address not found for phone number "+addr.getPhoneNo());
 			throw new AddressNotFoundException("Address not found for phone number "+addr.getPhoneNo());

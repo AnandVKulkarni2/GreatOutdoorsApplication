@@ -31,7 +31,6 @@ public class GreatOutdoorsController {
 	@GetMapping("/find/{prodid}")
 	public ResponseEntity<Product> findProduct(@PathVariable("prodid") Integer prodId) {
 		logger.info("Finding the product with id: "+prodId);
-		System.out.println("Finding product for id:" + prodId);
 		Product product = pService.findProduct(prodId);
 		logger.info("Product found for id: "+prodId);
 
@@ -48,7 +47,7 @@ public class GreatOutdoorsController {
 
 	}
 
-	@PutMapping("/updateproduct") // Only one call will happen if we try multiple times(PUT is idempotent)
+	@PutMapping("/updateproduct")
 	public ResponseEntity<Product> updateProduct(@RequestBody Product prod) {
 		logger.info("Updating product: "+prod);
 		Product product = pService.updateProduct(prod);

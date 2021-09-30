@@ -15,7 +15,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 public class Retailer {
 	
 	@Id
-//	@GeneratedValue
 	private int retailerId;
 	private String retailerName;
 	

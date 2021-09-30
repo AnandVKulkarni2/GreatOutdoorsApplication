@@ -9,15 +9,11 @@ public interface RetailService {
 
 	Address updateAddress(Address addr);
 
-//	Address findByPinCode(Integer pinCode);
-
 	Retailer findRetailer(Integer retailerId);
 
 	Retailer addRetailer(Retailer ret);
 
 	Retailer deleteRetailer(int retailerId);
-
-//	Address findAddress(int retailerId);
 
 	Retailer updateRetailer(Retailer ret);
 

@@ -23,15 +23,9 @@ public class ProductServiceImpl implements ProductService {
 	
 	private Logger logger= Logger.getLogger(ProductServiceImpl.class);
 
-	
-	//Read spring AOP
 	@Override
 	public Product findProduct(Integer prodId) {
-		//java.util.Optional<T> class 
-		//Optional is a container object used to contain not-null objects.
-		//Optional object is used to represent null with absent value.
-		//This class has various utility methods to facilitate code to handle values as ‘available’ or ‘not available’ instead of checking null values
-		Optional<Product> op= pDao.findById(prodId);//Optional is a container.
+		Optional<Product> op= pDao.findById(prodId);
 		if(!op.isPresent()) {
 			logger.error("Product is not present for id "+prodId);
 			throw new ProductNotPresentException("Product is not present for id "+prodId);
